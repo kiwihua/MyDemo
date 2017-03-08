@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tv_time"
+                tools:text="2016-11-23 23:51"
+                android:textColor="#27a382"
+                android:layout_margin="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                tools:text="彭博社：苹果在中国为什么输给了OPPvvvvvvvvvvvvvvvvvvO和vivo"
+                android:textColor="#333232"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <ImageView
+                android:id="@+id/iv_news_image"
+                tools:src="@drawable/test"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="4dp"
+                android:layout_width="400dp"
+                android:layout_height="250dp"/>
+
+            <ImageView
+                android:id="@+id/iv_news_image1"
+                tools:src="@drawable/test"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:layout_margin="4dp"
+                android:layout_width="200dp"
+                android:layout_height="125dp"/>
+
+            <ImageView
+                android:id="@+id/iv_news_image2"
+                tools:src="@drawable/test"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="4dp"
+                android:layout_width="80dp"
+                android:layout_height="25dp"/>
+
+            <ImageView
+                android:id="@+id/iv_news_image3"
+                tools:src="@drawable/test"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="4dp"
+                android:layout_width="200dp"
+                android:layout_height="125dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</merge>
